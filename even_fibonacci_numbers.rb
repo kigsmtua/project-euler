@@ -1,8 +1,9 @@
 def even_fibonacci_sum(n)
-    fn_2 = 1 # Second fib number
-    fn_1 = 1 # First fib number
+    fn_2 = 1
+    fn_1 = 1
     sum = 0
     while true
+        # This works because this will actually start at 2
       fn = fn_2 + fn_1
       if fn >= n
           return sum
